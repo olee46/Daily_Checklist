@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">日めくりチェックリスト</string>
+
+    <string name="main_name">今日のチェックリスト</string>
+    <string name="add_name">チェックリストに追加</string>
+    <string name="edit_name">チェックリストを編集</string>
+
+    <string name="task_msg">タスクを入力</string>
+    <string name="date_msg">日付</string>
+    <string name="time_msg">AM/PM</string>
+
+    <string name="ok">OK</string>
+    <string name="edit">編集</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="sun">(日)</string>
+    <string name="mon">(月)</string>
+    <string name="tue">(火)</string>
+    <string name="wed">(水)</string>
+    <string name="thu">(木)</string>
+    <string name="fri">(金)</string>
+    <string name="sat">(土)</string>
+    <string name="error">ERROR</string>
+
+</resources>

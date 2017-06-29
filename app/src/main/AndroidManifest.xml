@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.gr.java_conf.oleeapps.mytask3">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-sdk
+        android:minSdkVersion="15" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/checklist_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddActivity"
+            android:label="@string/add_name">
+        </activity>
+        <activity android:name=".UpdateActivity"
+            android:label="@string/edit_name">
+        </activity>
+
+    </application>
+</manifest>
